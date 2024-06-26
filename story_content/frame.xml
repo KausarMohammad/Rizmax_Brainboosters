@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x453BC7">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x453BC7">
   <layouts>
-    <layout name="npnxnanbsnfns00000000101" font="Lato" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbsnfns00000000101" string_table="npnxnanbsnfns00000000101" />
-    <layout name="pxabnsnfns00000000101" font="Lato" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbsnfns00000000101" string_table="npnxnanbsnfns00000000101" />
-    <layout name="npxnabnsnfns00000000101" font="Lato" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbsnfns00000000101" string_table="npnxnanbsnfns00000000101" />
-    <layout name="npnxnanbnsnfns00000000101" font="Lato" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbsnfns00000000101" string_table="npnxnanbsnfns00000000101" />
-    <layout name="pxabnsnfns00000000100" font="Lato" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbsnfns00000000101" string_table="npnxnanbsnfns00000000101" />
+    <layout name="npnxnanbsnfns00000000101" font="Lato" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Lato" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Lato" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Lato" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Lato" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npxnanbnsnfns00000000101" font="Lato" controllayout="npxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +14,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Rizmax Quiz Template" />
+              <option name="title_text" value="Rizmax_Quiz1_Updated_26/6" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -223,9 +224,34 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="npxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbsnfns00000000101">
+    <colorscheme name="npnxnanbnsnfns00000000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1403,7 +1429,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbsnfns00000000101">
+    <string_table name="npnxnanbnsnfns00000000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1558,14 +1584,14 @@
       <links>
         <slidelink slideid="_player.6MsBIfBXDHc" displaytext="Color-Changing Quiz Timer Template" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6MsBIfBXDHc.6nm56Llio2Z" displaytext="Question 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.61ASfM9lthM" displaytext="Question 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.5qYbuBgz1fJ" displaytext="Question 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.6UuNmy1WspW" displaytext="Question 4" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.5xT3abdqu06" displaytext="Question 5" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.5sJFXR86XXv" displaytext="Question 6" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.6RdZj1Uq1Hv" displaytext="Question 7" expand="false" type="slide" />
-            <slidelink slideid="_player.6MsBIfBXDHc.6SIkIcJhVLl" displaytext="Question 8" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.5WrBYtC8uvx" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.5qYbuBgz1fJ" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.6JwAD9wSDBD" displaytext="Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.5ZrW1lDHJs6" displaytext="Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.5wp45PYd5dz" displaytext="Question 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.6HrWQ9qLYYc" displaytext="Question 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.60EIzDRwrmi" displaytext="Question 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6MsBIfBXDHc.5taIzkUFzu5" displaytext="Question 8" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
